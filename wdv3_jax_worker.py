@@ -14,7 +14,9 @@ from huggingface_hub.utils import HfHubHTTPError
 from PIL import Image
 from simple_parsing import field, parse_known_args
 import glob
+import models
 
+# Scource link https://github.com/SmilingWolf/wdv3-jax
 
 MODEL_REPO_MAP = {
     "vit": "SmilingWolf/wd-vit-tagger-v3",
