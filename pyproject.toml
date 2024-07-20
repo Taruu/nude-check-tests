@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nude-check-tests"
+version = "0.1.0"
+description = ""
+authors = ["taruu <taruumax@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+huggingface-hub = "^0.24.0"
+pandas = "^2.2.2"
+pillow = "^10.4.0"
+simple-parsing = "^0.1.5"
+jax = "^0.4.30"
+flax = "^0.8.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
